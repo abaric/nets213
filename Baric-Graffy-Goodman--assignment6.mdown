@@ -49,7 +49,7 @@ Instead of the word-search, we decided to take a similar approach to the sequenc
 ###Experimental setup and deviations from original design
 Since we decided to have 90 HITs in each category (easy, medium, or hard), and we wanted the HITs to be accessible to most people (so that no one is excluded based on language ability), we decided to create 90 sequences of random numbers. The level of difficulty would be decided by how many numbers the user needed to sort--easy had to sort two numbers, medium three, and hard four. We wrote a short Python script to generate these random numbers from 0 to 1000, created a CSV out of the results, and then uploaded this to Crowdflower. To test the different levels of pay, we decided each difficulty level would be listed with three different pay levels: one cent, three cents, and five cents. This left us with nine different HIT sections to be posted. To ensure that no workers could work on the same task for a different level of pay, or the same pay but a different difficulty level, we restricted each HIT section to a certain region. This was the only way Crowdflower would allow us to restrict workers. We realize this may have skewed our results in a small way, because workers from different countries may place different values on each level of pay, but we had no way to avoid this because we didn’t have another way to ensure each HIT worker is unique. In our actual HIT design, we posted very clear instructions that listed how we want the worker to structure their input--that is no spaces with the displayed numbers sorted into increasing order. This deviated from the experiment’s original design because they had drag and drop images to be ordered, with an interactive interface. The interactive interface is definitely easier for the worker to use, however we weren’t sure how to create a simple interactive interface for the ordering of numbers. The drag and drop interface also eliminated any reason for typos. However, as our study is investigating the level of effort each worker puts into their HIT, the typos would be essentially the same as a misordering, since it is indicative of the level of effort coming from the worker. Finally, we posted each HIT in a different region and waited for the results.
 
-
+![Figure 1](https://drive.google.com/file/d/0Bw3fAEMSqTU3UnhfZXlDTkd6a0k/view?usp=sharing)
 Figure 1: Screenshot of one of our HITs, this one of Hard difficulty
 
 ###Our crowdsourcing platform, worker selection criteria, and payment scheme
@@ -64,29 +64,29 @@ For our experiment conducted in this paper, the only criteria we had was geograp
 
 ###Presentation and Analysis of Results
 
-
+![Figure 2](https://drive.google.com/file/d/0B32Y9UEgOu6kV1QzZE5hLTgwbEU/view?usp=sharing)
 Figure 2: Summary of Raw Results
 
 ####Did quantity of output vary with pay or difficulty?
 
 First we will discuss the quantity of worker output, as measured by the number of sequences they sorted on average. In contrast with the Mason-Watts paper, we found that Average Output per Contributor increased significantly with Difficulty. Normalized across pay-levels, this is surprising as we would expect workers to perform fewer tasks as they got harder.
 
-
+![Figure 3](https://drive.google.com/file/d/0B32Y9UEgOu6kRDdkb2xNTUlmZXc/view?usp=sharing)
 Figure 3: Workers completed more tasks as they got more difficult
 
 Also surprising is that we found quantity to be declining as the prospective pay-level increased. We would expect that as they are paid more for a given task relative to other available HITs on Crowdflower, workers would choose to complete more of them. Given these initial two findings, we decided to analyze the data closer to find a possible explanation.
 
-
+![Figure 4](https://drive.google.com/file/d/0B32Y9UEgOu6keTM1c2F5YUpGYW8/view?usp=sharing)
 Figure 4: Workers completed fewer tasks as they were paid more
 
 After looking at the relationship between Average Number of Unique Contributors for a HIT and the Pay-Level, we found that paying the workers more attracted a greater number of contributors to attempt the tasks. This makes sense, as more workers will be drawn to the greater reward. However, because we had a relatively limited number of tasks to be completed (180-200 per HIT relative to thousands for the Mason-Watts experiment), this increased worker attraction led to a “crowding-out effect.” 
 
-
+![Figure 5](https://drive.google.com/file/d/0B32Y9UEgOu6kVFN3NW9pUHI3M28/view?usp=sharing)
 Figure 5: Higher pay-rates attracted significantly more contributors to a HIT
 
 The crowding-out effect can be seen in Figure 6. As the number of unique contributors for a HIT increased, the average output decreases. This is due to the increased number of workers grabbing at a relatively small fixed-sized “pie.” 
 
-
+![Figure 6](https://drive.google.com/file/d/0B32Y9UEgOu6kMl81REJMR29VbDQ/view?usp=sharing)
 Figure 6: Workers’ average output declines as more workers attempt the HIT
 
 ####Did accuracy vary with pay or difficulty?
@@ -94,12 +94,12 @@ Figure 6: Workers’ average output declines as more workers attempt the HIT
 Next, we will see how Accuracy (measured as the % of correctly-ordered sequences) varied with Pay-Level and Difficulty. 
 Our first conclusion was that Accuracy was positively correlated with pay-level. This is in stark contrast to the Mason-Watts paper, which found no such correlation due to an “anchoring effect.”
 
-
+![Figure 7](https://drive.google.com/file/d/0B32Y9UEgOu6kMnBoYU5ZNHZZSWc/view?usp=sharing)
 Figure 7: Accuracy improves with pay-level
 
 Our second (surprising) result was that accuracy did not vary predictably with difficulty. While the most accurate HITs were those with the easiest difficulty (as we would predict), we also found that accuracy was greater for the hardest difficulty relative to the medium difficulty level. The reason for this could be that the difficulty levels were not differentiated enough in their difficulty to reveal any significant difference in Accuracy between them, and the much lower accuracy of the medium difficulty HITs could simply be due to random variation in our relatively small sample size. 
 
-
+![Figure 8](https://drive.google.com/file/d/0B32Y9UEgOu6kNGUzc3otaENDUFE/view?usp=sharing)
 Figure 8: Accuracy does not vary predictably with difficulty
 
 ###Summary and Discussion of Results
