@@ -69,7 +69,7 @@ Figure 2: Summary of Raw Results
 
 ####Did quantity of output vary with pay or difficulty?
 
-First we will discuss the quantity of worker output, as measured by the number of sequences they sorted on average. In contrast with the Mason-Watts paper, we found that Average Output per Contributor increased significantly with Difficulty. Normalized across pay-levels, this is surprising as we would expect workers to perform fewer tasks as they got harder. A possible explanation for this is: ____________.
+First we will discuss the quantity of worker output, as measured by the number of sequences they sorted on average. In contrast with the Mason-Watts paper, we found that Average Output per Contributor increased significantly with Difficulty. Normalized across pay-levels, this is surprising as we would expect workers to perform fewer tasks as they got harder.
 
 
 Figure 3: Workers completed more tasks as they got more difficult
@@ -92,7 +92,7 @@ Figure 6: Workers’ average output declines as more workers attempt the HIT
 ####Did accuracy vary with pay or difficulty?
 
 Next, we will see how Accuracy (measured as the % of correctly-ordered sequences) varied with Pay-Level and Difficulty. 
-Our first conclusion was that Accuracy was positively correlated with pay-level. This is in stark contrast to the Mason-Watts paper, which found no such correlation due to an “anchoring effect.” Possible expl. for the difference: ???
+Our first conclusion was that Accuracy was positively correlated with pay-level. This is in stark contrast to the Mason-Watts paper, which found no such correlation due to an “anchoring effect.”
 
 
 Figure 7: Accuracy improves with pay-level
@@ -106,7 +106,7 @@ Figure 8: Accuracy does not vary predictably with difficulty
 
 In summary, we first found that quantity of output increased with difficulty and decreased with pay-level. These results oppose the findings of Mason-Watts. The former is difficult to explain, but due to our relatively small sample size (only ~10-30 workers per HIT) it is possible that it is a random anomaly; the latter finding can possibly be explained by the fact that we had a relatively limited supply of tasks for workers to perform, so offering higher pay attracted more contributors, and thus each contributor was forced to complete fewer tasks than they otherwise would have completed. 
 
-Second, we looked at accuracy and found that while it did not vary significantly with difficulty, it did increase proportionally with pay. Both of these findings are in contrast to the Mason-Watts findings, which supposed accuracy to vary inversely with difficulty and not significantly with pay. One likely explanation for why accuracy did not depend on difficulty is that the difficulty levels were not significantly different in their difficulty (i.e., sorting four numbers is not too much more difficult than sorting two numbers). A possible explanation for why accuracy Why did accuracy vary with pay??? perhaps due to random anomaly due to small sample size, or because there was an absence of the “anchoring problem” Mason-Watts found as we did not emphasize the payment levels as much as they did. 
+Second, we looked at accuracy and found that while it did not vary significantly with difficulty, it did increase proportionally with pay. Both of these findings are in contrast to the Mason-Watts findings, which supposed accuracy to vary inversely with difficulty and not significantly with pay. One likely explanation for why accuracy did not depend on difficulty is that the difficulty levels were not significantly different in their difficulty (i.e., sorting four numbers is not too much more difficult than sorting two numbers). Perhaps accuracy varied with pay because of a random anomaly due to small sample size, or because there was an absence of the “anchoring problem” Mason-Watts found, as we did not emphasize the payment levels as much as they did. 
 
 
 
